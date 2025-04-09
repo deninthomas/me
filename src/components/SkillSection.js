@@ -1,16 +1,16 @@
 import React from 'react';
-import ReactIcon from '/src/images/react.png';
-import Jsicon from '/src/images/JavaScript.png';
-import TailwindIcon from '/src/images/Tailwind.png';
-import NodeIcon from '/src/images/Nodejs.png';
-import ExpressIcon from '/src/images/Express.png';
-import MongodbIcon from '/src/images/Mongodb.png';
-import GitIcon from '/src/images/Git.png';
-import HTMLIcon from '/src/images/HTML.png';
-import CSSIcon from '/src/images/CSS.png';
-import AwsIcon from '/src/images/Amazon S3.png';
-import APIIcon from '/src/images/API.png';
-import NextIcon from '/src/images/Next.png';
+import ReactIcon from './../images/React.png';
+import Jsicon from './../images/JavaScript.png';
+import TailwindIcon from './../images/Tailwind.png';
+import NodeIcon from './../images/Nodejs.png';
+import ExpressIcon from './../images/Express.png';
+import MongodbIcon from './../images/Mongodb.png';
+import GitIcon from './../images/Git.png';
+import HTMLIcon from './../images/HTML.png';
+import CSSIcon from './../images/CSS.png';
+import AwsIcon from './../images/Amazon S3.png';
+import APIIcon from './../images/API.png';
+import NextIcon from './../images/Next.png';
 
 const skills = [
   { name: 'React', image: ReactIcon },
