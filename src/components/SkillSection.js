@@ -2,7 +2,7 @@ import React from 'react';
 import ReactIcon from './../images/React.png';
 import Jsicon from './../images/JavaScript.png';
 import TailwindIcon from './../images/Tailwind.png';
-// import NodeIcon from './../images/Nodejs.png';
+import NodeIcon from './../images/NodeJs.png';
 import ExpressIcon from './../images/Express.png';
 import MongodbIcon from './../images/Mongodb.png';
 import GitIcon from './../images/Git.png';
