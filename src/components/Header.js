@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from './../assets/resume.pdf';
 
 const Header = () => {
   const scrollToSection = (sectionId) => {
@@ -33,13 +34,11 @@ const Header = () => {
           >
             Contact
           </button>
-          <a 
-            href="/resume.pdf" 
-            download="denin_thomas_francis.pdf"
-            className="bg-primary text-white px-4 py-2 rounded hover:bg-accent transition-colors"
-          >
-            Download Resume
-          </a>
+        <button 
+        onClick={() => window.open(resume, '_blank')}
+        className="bg-primary text-white hover:bg-primary-dark transition-colors px-4 py-2 rounded">
+          Download Resume
+        </button>
         </div>
       </nav>
     </header>
